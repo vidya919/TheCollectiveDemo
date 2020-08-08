@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="The Collective">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+		<listener class-name="in.tc.listeners.CustomListeners"/>
+	</listeners>
+
+	<test name="LoginTest">
+		<classes>
+			<class name="in.tc.testcases.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="My Account Test">
+		<classes>
+			<class name="in.tc.testcases.MyAccountTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Men Menu Test">
+		<classes>
+			<class name="in.tc.testcases.MenMenuTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

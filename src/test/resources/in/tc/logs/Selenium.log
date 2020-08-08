@@ -1,0 +1,19 @@
+2020-08-07 14:24:10,396 {ABSOLUTE} DEBUG devpinoyLogger:62 - Congfig file loaded!!!
+2020-08-07 14:24:10,401 {ABSOLUTE} DEBUG devpinoyLogger:77 - OR file loaded!!!
+2020-08-07 14:24:13,565 {ABSOLUTE} DEBUG devpinoyLogger:100 - Chrome launched!!
+2020-08-07 14:24:23,618 {ABSOLUTE} DEBUG devpinoyLogger:107 - Navigated to:https://www.thecollective.in/
+2020-08-07 14:24:29,407 {ABSOLUTE} DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-07 14:24:29,408 {ABSOLUTE} DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-07 14:24:29,409 {ABSOLUTE} DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-07 14:24:29,413 {ABSOLUTE} DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-07 14:24:29,413 {ABSOLUTE} DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Lenovo/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-07 14:24:37,639 {ABSOLUTE} DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-07 14:24:37,640 {ABSOLUTE} DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-07 14:24:37,641 {ABSOLUTE} DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-07 14:24:37,641 {ABSOLUTE} DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-07 14:24:37,642 {ABSOLUTE} DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Lenovo/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-08-07 14:24:41,504 {ABSOLUTE} DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-08-07 14:24:41,504 {ABSOLUTE} DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-08-07 14:24:41,506 {ABSOLUTE} DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-08-07 14:24:41,507 {ABSOLUTE} DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-08-07 14:24:41,508 {ABSOLUTE} DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Lenovo/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
