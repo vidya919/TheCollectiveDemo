@@ -44,6 +44,7 @@ public class Page {
 	public static WebDriverWait wait;
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
+	public static String browser;
 	public static TopMenu menu;
 
 	public Page() {
@@ -79,6 +80,18 @@ public class Page {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			
+			//jenkins browser options
+			if(System.getenv("browser")!=null && !System.getenv("browser").isEmpty()){
+				
+				browser = System.getenv("browser");
+			}else{
+				
+				browser = config.getProperty("browser");
+			}
+			
+			config.getProperty("browser", browser);
+			
 
 			if (config.getProperty("browser").equals("firefox")) {
 
