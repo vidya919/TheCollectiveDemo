@@ -24,7 +24,7 @@ public class Utilities extends Page {
 		Date d = new Date();
 		screenshotName = d.toString().replace(":", "_").replace(" ", "_")+".jpg";		
 		FileUtils.copyFile(srcFile, new File(System.getProperty("user.dir")+"\\target\\surefire-reports\\html\\" +screenshotName));
-		
+	
 	}
 
 	@DataProvider(name="dp")
